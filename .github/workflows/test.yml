@@ -2,7 +2,7 @@ name: hello-world-githubactions
 on: [push]
 jobs:
     print-hello-world
-    runs-on: ubuntu-latest
+    runs: ubuntu-latest
     steps:
         -run: echo "Hello World!!"
         -run: echo "this is step 2"
